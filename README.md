@@ -24,7 +24,7 @@
       <a href="https://github.com/OmarArturoGG">
         <img src="https://github.com/OmarArturoGG.png" width="100px;" alt="Omar"/>
         <br/>
-        <sub><b>Omar Maldonado</b></sub><br/>
+        <sub><b>Omar Arturo Maldonado Guzman</b></sub><br/>
         <span>MG220764</span>
       </a>
     </td>
@@ -32,7 +32,7 @@
       <a href="https://github.com/Cristina-Lue">
         <img src="https://github.com/Cristina-Lue.png" width="100px;" alt="Cristina"/>
         <br/>
-        <sub><b>Cristina Perez</b></sub><br/>
+        <sub><b>Cristina Aracely Perez Lue</b></sub><br/>
         <span>Pl240092</span>
       </a>
     </td>
@@ -42,6 +42,7 @@
 
 ## 🤝Contribución
 Omar  - 100%
+
 Cristina - 100%
 
 

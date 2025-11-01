@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Encabezado con degradado -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="@drawable/bg_degradado_menu"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvTituloFavoritos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="favoritos"
+            android:textSize="18sp"
+            android:textColor="#2D6556"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivHeart"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_favorite"
+            app:tint="#2D6556" />
+    </LinearLayout>
+
+    <!-- Contenedor principal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/tvFavoritosVacio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="No tienes productos favoritos"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:visibility="visible"
+            android:textColor="#777" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewFavoritos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</LinearLayout>

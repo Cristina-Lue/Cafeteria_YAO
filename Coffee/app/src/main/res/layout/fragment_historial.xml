@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_degradado_menu"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvHistorialVacio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No hay pedidos en tu historial"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:visibility="visible" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewHistorial"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</LinearLayout>

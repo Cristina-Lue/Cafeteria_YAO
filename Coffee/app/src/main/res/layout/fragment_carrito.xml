@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FAF6FA">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tu Carrito"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:textColor="#2D6556" />
+
+    <!-- Texto cuando no hay productos -->
+    <TextView
+        android:id="@+id/tvCarritoVacio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tu carrito está vacío"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textColor="#666" />
+
+    <!-- Lista de productos -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCarrito"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+    <!-- Total y botón -->
+    <LinearLayout
+        android:id="@+id/containerPago"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/tvTotalCarrito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total: $0.00"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#2D6556"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnProcederPago"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Finalizar compra y generar PDF"
+            android:backgroundTint="#2D6556"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:padding="12dp" />
+    </LinearLayout>
+</LinearLayout>

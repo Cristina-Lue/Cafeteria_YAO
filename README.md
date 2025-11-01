@@ -1,6 +1,6 @@
 <h1 align="center">
   <img src="https://media1.tenor.com/m/GaFv7nkK2HAAAAAC/cookie-good-morning.gif" width="50px"/> 
-  ☕ BIENVENIDO A Cafeteria YAO ☕
+  ☕ BIENVENIDO A CAFETERIA YAO ☕
 	<img src="https://media1.tenor.com/m/GaFv7nkK2HAAAAAC/cookie-good-morning.gif" width="50px"/> 
 </h1>
 <h3 align="center">✨ La mejor experiencia al momento de ordenar ✨</h3>

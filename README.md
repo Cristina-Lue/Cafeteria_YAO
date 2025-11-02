@@ -19,6 +19,7 @@
 
 ## 📖 Manuales
 [Manual Tecnico](https://github.com/Cristina-Lue/Cafeteria_YAO/blob/Manuales/manual_tecnico.pdf)
+[Manual Usuario](https://github.com/Cristina-Lue/Cafeteria_YAO/blob/Manuales/Manual_Usuario.pdf)
 
 ## 👥 Equipo de desarrollo
 

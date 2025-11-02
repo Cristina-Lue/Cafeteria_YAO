@@ -16,6 +16,10 @@
 
 ## 🎥 Demo
 [Aplicacion funcional](https://drive.google.com/file/d/1j8HgqZG-wmnd9KVl-lZsHa9EWzgPCwxw/view?usp=drivesdk) 
+
+## 📖 Manuales
+[Manual Tecnico](https://github.com/Cristina-Lue/Cafeteria_YAO/blob/Manuales/manual_tecnico.pdf)
+
 ## 👥 Equipo de desarrollo
 
 <table align="center">
